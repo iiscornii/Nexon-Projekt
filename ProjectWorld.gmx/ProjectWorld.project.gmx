@@ -6,7 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_Player_2</sprite>
+    <sprite>sprites\spr_Player</sprite>
     <sprite>sprites\spr_Block</sprite>
     <sprite>sprites\spr_Cursor</sprite>
   </sprites>
