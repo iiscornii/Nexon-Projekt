@@ -51,20 +51,22 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_Block" x="0" y="0" name="inst_55A8A076" locked="0" code="" scaleX="20" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Block" x="0" y="448" name="inst_3439AB31" locked="0" code="" scaleX="20" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Block" x="0" y="32" name="inst_B7326965" locked="0" code="" scaleX="1" scaleY="13" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Block" x="608" y="32" name="inst_8B5C3F50" locked="0" code="" scaleX="1" scaleY="13" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Block" x="96" y="64" name="inst_F5562927" locked="0" code="" scaleX="3" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Block" x="64" y="96" name="inst_998ADC52" locked="0" code="" scaleX="6" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Block" x="160" y="160" name="inst_9A6C3A45" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Block" x="96" y="160" name="inst_54122BB4" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Block" x="64" y="160" name="inst_FD8B5DAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_MapGrid" x="0" y="0" name="inst_ED5DA31C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Player" x="272" y="240" name="inst_C82BCD1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Teleport" x="32" y="32" name="inst_99A7FE06" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_MapGrid" x="16" y="16" name="inst_C2CF0CA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Teleport" x="32" y="16" name="inst_066BB7CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Player" x="48" y="48" name="inst_6B824DBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Block" x="0" y="0" name="inst_668000D9" locked="0" code="" scaleX="40" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Block" x="0" y="464" name="inst_49024AB0" locked="0" code="" scaleX="40" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Block" x="0" y="16" name="inst_A39563D1" locked="0" code="" scaleX="1" scaleY="28" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Block" x="624" y="16" name="inst_3D611F78" locked="0" code="" scaleX="1" scaleY="28" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Block" x="80" y="96" name="inst_372B05F6" locked="0" code="" scaleX="7" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Block" x="96" y="80" name="inst_0812963E" locked="0" code="" scaleX="5" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Block" x="336" y="112" name="inst_9D5DF87F" locked="0" code="" scaleX="6" scaleY="7" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Block" x="336" y="224" name="inst_F0D4992A" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Block" x="400" y="224" name="inst_FC755115" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
-  <tiles/>
+  <tiles>
+    <tile bgName="Tile_World" x="320" y="112" w="128" h="128" xo="48" yo="32" id="10000430" name="inst_3DCB9155" depth="-20" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+  </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>

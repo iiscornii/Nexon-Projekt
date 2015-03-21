@@ -26,14 +26,17 @@
           <argument>
             <kind>1</kind>
             <string>globalvar player_new_pos_x, player_new_pos_y;
-player_new_pos_x = 48
-player_new_pos_y = 48
+player_new_pos_x = 24
+player_new_pos_y = 24
 
 globalvar teleporter;
 teleporter[0] = 0
 
-teleport_add(rm_TestWorld, 64, 64, rm_TestWorld, 640-64, 480-64)
-teleport_add(rm_TestWorld, 640-64, 480-64, rm_TestWorld, 64, 64)
+teleport_add(rm_TestWorld, 80, 80, rm_TestWorld, 608, 448)
+teleport_add(rm_TestWorld, 608, 448, rm_TestWorld, 80, 80)
+
+teleport_add(rm_TestWorld, 368, 224, rm_TestWorld, 368, 96)
+teleport_add(rm_TestWorld, 384, 224, rm_TestWorld, 384, 96)
 
 
 

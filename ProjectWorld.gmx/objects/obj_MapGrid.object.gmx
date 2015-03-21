@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>10</depth>
+  <depth>-100</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>globalvar map_grid;
-map_grid = mp_grid_create(0, 0, ceil(room_width/32), ceil(room_width/32), 32, 32)
+map_grid = mp_grid_create(0, 0, ceil(room_width/16), ceil(room_width/16), 16, 16)
 mp_grid_add_instances(map_grid, obj_Block, true)
 
 movable_path = path_add()
@@ -53,12 +53,12 @@ movable_path = path_add()
           <argument>
             <kind>1</kind>
             <string>movable = false
-if mp_grid_path(map_grid, movable_path, obj_Player.x, obj_Player.y, floor(mouse_x/32)*32+16, floor(mouse_y/32)*32+16, 1) {
+if mp_grid_path(map_grid, movable_path, obj_Player.x, obj_Player.y, floor(mouse_x/16)*16+8, floor(mouse_y/16)*16+8, 1) {
     movable = true
     if (mouse_check_button_pressed(mb_left)) {
         with (obj_Player) {
-            mp_grid_path(map_grid, move_path, x, y, floor(mouse_x/32)*32+16, floor(mouse_y/32)*32+16, 1)
-            path_start(move_path, 8, 0, true)
+            mp_grid_path(map_grid, move_path, x, y, floor(mouse_x/16)*16+8, floor(mouse_y/16)*16+8, 1)
+            path_start(move_path, move_speed, 0, true)
         }
     }
 }
@@ -84,9 +84,9 @@ if mp_grid_path(map_grid, movable_path, obj_Player.x, obj_Player.y, floor(mouse_
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>mp_grid_draw(map_grid)
+            <string>//mp_grid_draw(map_grid)
 draw_path(obj_Player.move_path, 0, 0, true)
-draw_sprite(spr_Cursor, movable, floor(mouse_x/32)*32+16, floor(mouse_y/32)*32+16)
+draw_sprite(spr_Cursor, movable, floor(mouse_x/16)*16+8, floor(mouse_y/16)*16+8)
 </string>
           </argument>
         </arguments>

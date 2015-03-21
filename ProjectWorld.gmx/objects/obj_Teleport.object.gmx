@@ -51,15 +51,15 @@
             <string>var check_free = true
 for (i = 1; i &lt;= teleporter[0]; i += 1) {
     if (teleporter[i, 0] == room) {
-        if (point_in_rectangle(obj_Player.x, obj_Player.y, teleporter[i, 1], teleporter[i, 2], teleporter[i, 1]+32, teleporter[i, 2]+32)) {
+        if (point_in_rectangle(obj_Player.x, obj_Player.y, teleporter[i, 1], teleporter[i, 2], teleporter[i, 1]+16, teleporter[i, 2]+16)) {
             if (teleport_active) {
                 /*if (teleporter[i, 3] == teleporter[i, 0]) {
                     obj_Player.x = teleporter[i, 4]+16
                     obj_Player.y = teleporter[i, 5]+16
                 } else {*/
                     room_goto(teleporter[i, 3])
-                    player_new_pos_x = teleporter[i, 4]+16
-                    player_new_pos_y = teleporter[i, 5]+16
+                    player_new_pos_x = teleporter[i, 4]+8
+                    player_new_pos_y = teleporter[i, 5]+8
                 //}
             } else {
                 check_free = false

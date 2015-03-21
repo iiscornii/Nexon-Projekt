@@ -3,7 +3,7 @@
   <spriteName>spr_Player</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-50</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -28,7 +28,7 @@
             <string>x = player_new_pos_x
 y = player_new_pos_y
 move_path = path_add()
-move_speed = 8
+move_speed = 4
 </string>
           </argument>
         </arguments>
