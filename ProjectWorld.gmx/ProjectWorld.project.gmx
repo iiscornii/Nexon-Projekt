@@ -10,7 +10,9 @@
     <sprite>sprites\spr_Block</sprite>
     <sprite>sprites\spr_Cursor</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\Tile_World</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\teleport_add.gml</script>
@@ -25,6 +27,7 @@
   <rooms name="rooms">
     <room>rooms\rm_Preload</room>
     <room>rooms\rm_TestWorld</room>
+    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
