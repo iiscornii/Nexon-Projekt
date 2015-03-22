@@ -60,12 +60,16 @@
     <instance objName="obj_Block" x="624" y="16" name="inst_3D611F78" locked="0" code="" scaleX="1" scaleY="28" colour="4294967295" rotation="0"/>
     <instance objName="obj_Block" x="80" y="96" name="inst_372B05F6" locked="0" code="" scaleX="7" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="obj_Block" x="96" y="80" name="inst_0812963E" locked="0" code="" scaleX="5" scaleY="7" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Block" x="336" y="112" name="inst_9D5DF87F" locked="0" code="" scaleX="6" scaleY="7" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Block" x="336" y="224" name="inst_F0D4992A" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Block" x="400" y="224" name="inst_FC755115" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Block" x="336" y="224" name="inst_F0D4992A" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Block" x="336" y="160" name="inst_1DC8C451" locked="0" code="" scaleX="6" scaleY="4" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
-    <tile bgName="Tile_World" x="320" y="112" w="128" h="128" xo="48" yo="32" id="10000430" name="inst_3DCB9155" depth="-20" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tile_World" x="336" y="160" w="96" h="80" xo="64" yo="80" id="10000434" name="inst_3AB84E62" depth="-20" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tile_World" x="432" y="112" w="16" h="128" xo="160" yo="32" id="10000438" name="inst_F6AB15CA" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tile_World" x="336" y="112" w="96" h="48" xo="64" yo="32" id="10000439" name="inst_EED68C82" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tile_World" x="320" y="112" w="16" h="64" xo="48" yo="32" id="10000440" name="inst_784518DA" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="Tile_World" x="320" y="176" w="16" h="64" xo="48" yo="96" id="10000441" name="inst_F163C52F" depth="-100" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
